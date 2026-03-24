@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #780000;
+  --secondary-color: #c1121f;
+  --tertiary-color: #fdf0d5;
+  --text-color: #003049;
+  --accent-color: #669bbc;
+  --color-white: #ffffff;
+}
+
+/* Global Syles */
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.main-header {
+  width: 100%;
+  background-color: var(--tertiary-color);
+}
+
+.main-header .container {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__logo-wrapper {
+  padding: 20px 70px;
+  background-color: var(--accent-color);
+}
+
+.main-header__navigation {
+  padding: 20px 400px;
+  background-color: var(--secondary-color);
+}
+
+.main-header__logo-wrapper,
+.main-header__navigation {
+  border-radius: 100px;
+  color: var(--color-white);
+}
+
+/* Section Hero Styles */
+.section-hero {
+  width: 100%;
+  min-height: 450px;
+  background-color: var(--text-color);
+  color: var(--color-white);
+  padding: 60px 0;
+}

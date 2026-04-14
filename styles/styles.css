@@ -5,6 +5,8 @@
   --text-color: #003049;
   --accent-color: #669bbc;
   --color-white: #ffffff;
+  --color-black: #000;
+  --border-color: #000;
 }
 
 /* Global Syles */
@@ -51,35 +53,43 @@
   padding: 60px 0;
 }
 
-/* My practice part */
-.carousel {
+.section-hero .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 350px;
+}
+
+.section-hero__hero-box {
+  width: 400px;
+  border: 2px dashed var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+/* Section Carousel Styles */
+.section-carousel {
   width: 100%;
   min-height: 450px;
   background-color: var(--accent-color);
   padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.carousel .container {
+.section-carousel .container {
   display: flex;
   gap: 20px;
 }
-
-.carousel-box {
+.section-carousel__carousel-box {
   flex: 1;
   height: 200px;
-  border: 2px dashed #aaa;
+  border: 2px dashed var(--border-color);
+  background-color: var(--tertiary-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-color);
-}
-
-.hero-box {
-  width: 400px;
-  height: 200px;
-  border: 2px dashed #aaa;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: var(--color-black);
 }

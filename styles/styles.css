@@ -32,7 +32,7 @@
 }
 
 .main-header__navigation {
-  padding: 20px 400px;
+  padding: 20px 200px;
   background-color: var(--secondary-color);
 }
 
@@ -49,4 +49,37 @@
   background-color: var(--text-color);
   color: var(--color-white);
   padding: 60px 0;
+}
+
+/* My practice part */
+.carousel {
+  width: 100%;
+  min-height: 450px;
+  background-color: var(--accent-color);
+  padding: 60px 0;
+}
+
+.carousel .container {
+  display: flex;
+  gap: 20px;
+}
+
+.carousel-box {
+  flex: 1;
+  height: 200px;
+  border: 2px dashed #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+
+.hero-box {
+  width: 400px;
+  height: 200px;
+  border: 2px dashed #aaa;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
